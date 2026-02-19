@@ -9,7 +9,13 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
-const ServiceCard = ({ index, title, icon }) => (
+interface ServiceCardProps {
+  index: number;
+  title: string;
+  icon: string;
+}
+
+const ServiceCard = ({ index, title, icon }: ServiceCardProps) => (
   <div className="xs:w-[250px] w-full sm:w-[250px]">
     <Tilt
       className="xs:w-[250px] w-full"
