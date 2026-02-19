@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import { styles } from "../styles.js";
-import { ComputersCanvas } from "../components/canvas/index.js";
+//import { ComputersCanvas } from "../components/canvas/index.js";
 import Link from "next/link";
 
 const ComputersCanvas = dynamic(
