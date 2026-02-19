@@ -6,6 +6,11 @@ import { styles } from "../styles.js";
 import { ComputersCanvas } from "../components/canvas/index.js";
 import Link from "next/link";
 
+const ComputersCanvas = dynamic(
+  () => import("./canvas").then((mod) => mod.ComputersCanvas),
+  { ssr: false },
+);
+
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
