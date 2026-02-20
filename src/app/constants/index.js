@@ -59,39 +59,47 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Car Rent",
+    name: "Game Hub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals.",
+      "A game curation platform to search and purchase gaming titles with a seamless UI.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
-      { name: "mongodb", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "mongodb", color: "text-green-500" },
+      { name: "tailwind", color: "text-pink-400" },
+      { name: "nextjs", color: "text-orange-400" },
+      { name: "typescript", color: "text-blue-400" },
     ],
-    image: "/carrent.png",
-    source_code_link: "https://github.com/",
+    image: "/gamehub.png",
+    source_code_link: "https://react-js-final-project-rsd-ov8c.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "In The Forest",
     description:
-      "Web application that enables users to search for job openings.",
+      "A cybersecurity consulting service providing vulnerability assessments for web and app clients.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "restapi", color: "green-text-gradient" },
-      { name: "scss", color: "pink-text-gradient" },
+      {
+        name: "Web/Mobile/API Penetration Testing",
+        color: "blue-text-gradient",
+      },
+      { name: "Red Teaming", color: "text-green-500" },
+      { name: "Secure Coding", color: "text-pink-400" },
     ],
-    image: "/jobit.png",
-    source_code_link: "https://github.com/",
+    image: "/intheforest.png",
+    source_code_link: "https://www.itforest.net/",
   },
   {
-    name: "Trip Guide",
-    description: "A comprehensive travel booking platform.",
+    name: "EUN Korea",
+    description:
+      "A hospital groupware system designed to manage administrative workflows and medical tasks.",
     tags: [
-      { name: "nextjs", color: "blue-text-gradient" },
-      { name: "supabase", color: "green-text-gradient" },
-      { name: "css", color: "pink-text-gradient" },
+      { name: "ASP", color: "blue-text-gradient" },
+      { name: "JS", color: "text-green-500" },
+      { name: "HTML5", color: "text-red-400" },
+      { name: "css", color: "text-blue-400" },
+      { name: "MS-SQL", color: "text-orange-400" },
     ],
-    image: "/tripguide.png",
-    source_code_link: "https://github.com/",
+    image: "/eun-korea.png",
+    source_code_link: "http://www.eunkorea.com/",
   },
 ];
 

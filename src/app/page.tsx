@@ -16,7 +16,7 @@ const About = dynamic(() => import("../app/components/About"), { ssr: false });
 const Navbar = dynamic(() => import("../app/components/Navbar"), {
   ssr: false,
 });
-const StartsCanvas = dynamic(() => import("./components/StartsCanvas"), {
+const StartsCanvas = dynamic(() => import("./components/canvas/Stars"), {
   ssr: false,
 });
 
